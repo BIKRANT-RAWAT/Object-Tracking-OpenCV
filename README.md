@@ -28,6 +28,7 @@ Below is a **side-by-side comparison** of the original input video and the track
 ├── mosse.py                # MOSSE tracker (very fast)
 ├── tld.py                  # TLD tracker
 ├── video_writer.py         # Utility for saving output video
+├── stream_yolo11.py        # Ultralytics yolo11 
 ├── requirements.txt        # Project dependencies
 ```
 
@@ -45,6 +46,7 @@ This project includes implementations of the following OpenCV trackers:
 * **MedianFlow** – Robust for predictable motion
 * **TLD** – Tracking, Learning, and Detection
 * **GOTURN** – Deep learning based object tracker
+* **YOLO11** – Ultralytics yolo11 based object tracker
 
 Each tracker has different **speed vs accuracy trade-offs**, making this repo ideal for learning and benchmarking.
 
